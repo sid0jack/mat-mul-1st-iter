@@ -1,6 +1,18 @@
-*.i
-*.ii
-*.gpu
-*.ptx
-*.cubin
-*.fatbin
+# Compiled application and kernels
+gemm_app
+*.cu.o
+*.cu~
+
+# Nsight Systems reports
+*.nsys-rep
+*.sqlite
+
+# Editor-specific folders
+.vscode/
+
+# Ignore all files ending with '~', which are backup files created by some text editors
+*~
+
+# Temporary files that may be created by the OS or other processes
+.DS_Store
+Thumbs.db
